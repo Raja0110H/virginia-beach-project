@@ -1,0 +1,17 @@
+{
+    "Schools": [
+      {
+        "id": "1",
+        "name": "Clinton High"
+      },
+      {
+        "id": "2",
+        "name": "Jaja Middle School"    
+      },
+      {
+        "id": "3",
+        "name": "Oyale Elementary"
+      }
+    ]
+  }
+  

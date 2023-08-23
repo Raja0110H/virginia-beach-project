@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li h2 {
+  color: #000000;
+}
+
+header h2 {
+  color: #ffffff;
+}
+
+section {
+  width: 40rem;
+  max-width: 90%;
+  height: 15rem;
+}
+
+
+#subset-data {
+  border: 1px solid #870099;
+  background-color: rgb(255, 255, 255);
+
+}
+
+#subset-data>header {
+  background: #870099;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+
+#asubset-data header h2 {
+  color: white;
+  margin: 0;
+}
+
+#main-body {
+  position: absolute;
+  left: -35rem;
+  bottom: 45rem;
+  z-index: 1;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  width: 10rem;
+  height: 10rem;
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #0000ff;
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+  position: fixed;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+.info-button{
+  outline: none;
+  background: transparent;
+  border: 1px solid transparent;
+  font-size: 20px;
+  color: #0f0e0e;
+}
