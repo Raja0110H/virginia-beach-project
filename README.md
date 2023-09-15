@@ -22,3 +22,4 @@ To start the project run:
 ### `npm start`
 
 
+![virginia_beach_map](https://github.com/Raja0110H/virginia-beach-project/assets/88667222/91c36e2c-3969-4442-831b-d136cc029241)
